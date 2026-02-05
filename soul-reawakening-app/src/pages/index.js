@@ -1,0 +1,9 @@
+export { default as HomePage } from './HomePage';
+export { default as AboutPage } from './AboutPage';
+export { default as ShopPage } from './ShopPage';
+export { default as BlogPage } from './BlogPage';
+export { default as VideosPage } from './VideosPage';
+export { default as BookingPage } from './BookingPage';
+export { default as ContactPage } from './ContactPage';
+export { default as LinksPage } from './LinksPage';
+export { default as NotFoundPage } from './NotFoundPage';
