@@ -44,7 +44,7 @@ const AboutPage = () => (
           }}
         >
           <RevealSection>
-            <PlaceholderImg height="600px" text="Makini Portrait" />
+            <PlaceholderImg src="/makini-about.png" alt="Makini C. Campbell outdoors" height="600px" style={{ objectPosition: "center top" }} />
           </RevealSection>
 
           <RevealSection delay={0.15}>

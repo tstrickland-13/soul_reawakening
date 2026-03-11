@@ -120,6 +120,7 @@ const ContactForm = () => {
 
         {error && (
           <div
+            role="alert"
             style={{
               background: colors.roseDust,
               padding: "12px 16px",

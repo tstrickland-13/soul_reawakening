@@ -90,7 +90,11 @@ const NewsletterForm = ({ variant = "inline" }) => {
           </p>
         )}
 
+        <label htmlFor="newsletter-email" className="sr-only" style={{ position: "absolute", width: "1px", height: "1px", padding: 0, margin: "-1px", overflow: "hidden", clip: "rect(0,0,0,0)", border: 0 }}>
+          Email address
+        </label>
         <input
+          id="newsletter-email"
           type="email"
           name="email"
           placeholder="Your email address"

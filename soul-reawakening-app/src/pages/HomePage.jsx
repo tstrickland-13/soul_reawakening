@@ -140,7 +140,7 @@ const HomePage = () => (
         }}
       >
         <RevealSection>
-          <PlaceholderImg height="520px" text="Makini's Photo" />
+          <PlaceholderImg src="/makini-portrait.png" alt="Makini C. Campbell" height="520px" style={{ objectPosition: "center top" }} />
         </RevealSection>
 
         <RevealSection delay={0.15}>

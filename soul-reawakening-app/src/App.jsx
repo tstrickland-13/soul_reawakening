@@ -5,7 +5,6 @@ import {
   HomePage,
   AboutPage,
   ShopPage,
-  BlogPage,
   VideosPage,
   BookingPage,
   ContactPage,
@@ -24,8 +23,6 @@ function App() {
             <Route path="/" element={<HomePage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/shop" element={<ShopPage />} />
-            <Route path="/blog" element={<BlogPage />} />
-            <Route path="/blog/:slug" element={<BlogPage />} />
             <Route path="/videos" element={<VideosPage />} />
             <Route path="/booking" element={<BookingPage />} />
             <Route path="/contact" element={<ContactPage />} />

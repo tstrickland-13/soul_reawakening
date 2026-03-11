@@ -71,7 +71,7 @@ const LinksPage = () => (
             marginTop: "8px",
           }}
         >
-          A Life in Motion ✧
+          {siteConfig.tagline} ✧
         </p>
       </div>
 
@@ -90,7 +90,7 @@ const LinksPage = () => (
 
           return (
             <Component
-              key={i}
+              key={link.label}
               {...linkProps}
               className={`animate-in-delay-${Math.min(i + 1, 5)}`}
               style={{

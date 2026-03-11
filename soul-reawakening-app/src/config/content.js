@@ -194,11 +194,16 @@ export const targetAudience = [
   "Individuals committed to personal transformation",
 ];
 
+// Add individual videos here to feature them on the Videos page.
+// Each entry will render as a card in the "More Videos" grid.
+// Example:
+//   { id: 1, title: "Episode Title", label: "Episode 1", youtubeId: "dQw4w9WgXcQ" }
+export const featuredVideos = [];
+
 export const quickLinks = [
   { label: "Book A Free Discovery Call", icon: "\u2727", path: "/booking" },
   { label: "Explore Offerings", icon: "\u25C8", path: "/shop" },
   { label: "Watch on YouTube", icon: "\u25B6", external: true },
-  { label: "Read the Blog", icon: "\u270E", path: "/blog" },
   { label: "About Makini", icon: "\u25C7", path: "/about" },
   { label: "Contact Me", icon: "\u2709", path: "/contact" },
 ];
@@ -210,5 +215,6 @@ export default {
   offerings,
   guidingPrinciples,
   targetAudience,
+  featuredVideos,
   quickLinks,
 };

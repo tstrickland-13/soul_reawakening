@@ -13,7 +13,7 @@ const Footer = () => {
   };
 
   const handleHover = (e, isEnter) => {
-    e.target.style.color = isEnter ? colors.cream : colors.taupeLight;
+    e.currentTarget.style.color = isEnter ? colors.cream : colors.taupeLight;
   };
 
   return (
@@ -73,7 +73,6 @@ const Footer = () => {
                 { label: "Home", path: "/" },
                 { label: "About", path: "/about" },
                 { label: "Shop", path: "/shop" },
-                { label: "Blog", path: "/blog" },
               ].map((item) => (
                 <Link
                   key={item.path}
@@ -198,7 +197,7 @@ const Footer = () => {
               letterSpacing: "0.5px",
             }}
           >
-            New York City
+            {siteConfig.location}
           </span>
         </div>
       </Container>

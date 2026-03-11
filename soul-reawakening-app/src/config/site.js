@@ -18,7 +18,7 @@ export const siteConfig = {
     instagram: "@soul_reawakening",
     instagramUrl: "https://instagram.com/soul_reawakening",
     youtube: "Soul Reawakening",
-    youtubeUrl: "https://youtube.com/@soulreawakening",
+    youtubeUrl: "https://youtube.com/@soul_reawakening",
     youtubePlaylist: "https://www.youtube.com/embed/videoseries?list=PLnuFcIyG2-BY2Hir1qtpzBLr0q-f7-_ja",
   },
   
