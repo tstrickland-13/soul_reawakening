@@ -105,7 +105,7 @@ const Footer = () => {
             <div style={{ marginTop: "20px", display: "flex", flexDirection: "column", gap: "12px" }}>
               {[
                 { label: "Videos", path: "/videos" },
-                { label: "Book a Session", path: "/booking" },
+                { label: "Book A Free Discovery Call", path: "/booking" },
                 { label: "Contact", path: "/contact" },
                 { label: "Quick Links", path: "/links" },
               ].map((item) => (
@@ -198,7 +198,7 @@ const Footer = () => {
               letterSpacing: "0.5px",
             }}
           >
-            Brooklyn, NY
+            New York City
           </span>
         </div>
       </Container>

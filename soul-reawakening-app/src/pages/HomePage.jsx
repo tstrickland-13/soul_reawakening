@@ -13,7 +13,7 @@ import { NewsletterForm } from '../components/forms';
 import SEO from '../components/SEO';
 import { colors, fonts } from '../config/tokens';
 import { siteConfig, ownerInfo } from '../config/site';
-import { testimonials, offerings } from '../config/content';
+import { testimonials, offerings, guidingPrinciples } from '../config/content';
 
 const HomePage = () => (
   <div>
@@ -31,7 +31,6 @@ const HomePage = () => (
         overflow: "hidden",
       }}
     >
-      {/* Subtle background orb */}
       <div
         style={{
           position: "absolute",
@@ -70,10 +69,25 @@ const HomePage = () => (
         </h1>
 
         <p
+          className="animate-in-delay-1"
+          style={{
+            fontFamily: fonts.display,
+            fontSize: "clamp(20px, 3vw, 30px)",
+            fontWeight: 300,
+            fontStyle: "italic",
+            color: colors.gold,
+            marginBottom: "8px",
+            letterSpacing: "1px",
+          }}
+        >
+          {siteConfig.tagline}
+        </p>
+
+        <p
           className="animate-in-delay-2"
           style={{
             fontFamily: fonts.accent,
-            fontSize: "clamp(18px, 2.5vw, 24px)",
+            fontSize: "clamp(16px, 2vw, 20px)",
             fontWeight: 300,
             fontStyle: "italic",
             color: colors.warmGray,
@@ -81,7 +95,7 @@ const HomePage = () => (
             letterSpacing: "0.5px",
           }}
         >
-          {siteConfig.tagline}
+          {siteConfig.subtitle}
         </p>
 
         <div className="animate-in-delay-2" style={{ display: "flex", justifyContent: "center" }}>
@@ -91,15 +105,16 @@ const HomePage = () => (
         <p
           className="animate-in-delay-3"
           style={{
-            fontFamily: fonts.body,
+            fontFamily: fonts.accent,
             fontSize: "16px",
+            fontStyle: "italic",
             color: colors.warmGray,
-            maxWidth: "520px",
+            maxWidth: "580px",
             margin: "0 auto 40px",
             lineHeight: 1.8,
           }}
         >
-          {siteConfig.description}
+          &ldquo;{siteConfig.description}&rdquo;
         </p>
 
         <div
@@ -108,7 +123,7 @@ const HomePage = () => (
         >
           <Button to="/shop">Explore Services</Button>
           <Button variant="outline" to="/booking">
-            Book a Session
+            Book A Free Discovery Call
           </Button>
         </div>
       </Container>
@@ -129,20 +144,65 @@ const HomePage = () => (
         </RevealSection>
 
         <RevealSection delay={0.15}>
-          <SectionLabel>About {ownerInfo.name.split(" ")[0]}</SectionLabel>
+          <SectionLabel>About Makini</SectionLabel>
           <SectionHeading style={{ margin: "16px 0" }}>
-            A Journey of Healing & Transformation
+            About Makini
           </SectionHeading>
           <Divider />
-          <BodyText>{ownerInfo.bio}</BodyText>
+          <BodyText>
+            {ownerInfo.bio}
+          </BodyText>
           <BodyText style={{ marginTop: "16px" }}>
-            Whether you're navigating life transitions, seeking clarity, or ready to step into your
-            fullest potential — your journey starts here.
+            Whether you are navigating life transitions, seeking clarity, or ready to step into your
+            fullest potential&mdash;your journey starts here.
           </BodyText>
           <div style={{ marginTop: "32px" }}>
             <Button variant="outline" to="/about">
-              Read My Story →
+              Read My Story &rarr;
             </Button>
+          </div>
+        </RevealSection>
+      </Container>
+    </section>
+
+    {/* FOCUS AREAS */}
+    <section style={{ padding: "100px 0", background: colors.sandLight }}>
+      <Container>
+        <RevealSection>
+          <div style={{ textAlign: "center", marginBottom: "48px" }}>
+            <SectionLabel>Focus Areas</SectionLabel>
+            <SectionHeading style={{ margin: "16px 0" }}>How I Support Growth</SectionHeading>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Divider />
+            </div>
+          </div>
+        </RevealSection>
+
+        <RevealSection delay={0.15}>
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              gap: "16px",
+            }}
+          >
+            {ownerInfo.focusAreas.map((area, i) => (
+              <span
+                key={i}
+                style={{
+                  fontFamily: fonts.body,
+                  fontSize: "14px",
+                  padding: "14px 28px",
+                  border: `1px solid ${colors.taupe}`,
+                  background: colors.warmWhite,
+                  color: colors.charcoal,
+                  letterSpacing: "0.5px",
+                }}
+              >
+                {area}
+              </span>
+            ))}
           </div>
         </RevealSection>
       </Container>
@@ -154,10 +214,16 @@ const HomePage = () => (
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "64px" }}>
             <SectionLabel>Offerings</SectionLabel>
-            <SectionHeading style={{ margin: "16px 0" }}>How We Can Work Together</SectionHeading>
+            <SectionHeading style={{ margin: "16px 0" }}>Ways We Can Work Together</SectionHeading>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Divider />
             </div>
+            <BodyText style={{ margin: "0 auto", textAlign: "center" }}>
+              Makini&rsquo;s work supports individuals, parents, athletes, and leaders who are seeking
+              clarity, growth, and purposeful transformation. Through coaching, workshops, and immersive
+              experiences, clients are guided toward deeper alignment, renewed perspective, and meaningful
+              personal and professional development.
+            </BodyText>
           </div>
         </RevealSection>
 
@@ -230,6 +296,132 @@ const HomePage = () => (
       </Container>
     </section>
 
+    {/* THE MAKINI CAMPBELL APPROACH */}
+    <section style={{ padding: "100px 0" }}>
+      <Container>
+        <RevealSection>
+          <div style={{ textAlign: "center", marginBottom: "48px" }}>
+            <SectionLabel>My Approach</SectionLabel>
+            <SectionHeading style={{ margin: "16px 0" }}>The Makini Campbell Approach</SectionHeading>
+            <div style={{ display: "flex", justifyContent: "center" }}>
+              <Divider />
+            </div>
+            <BodyText style={{ margin: "0 auto", textAlign: "center" }}>
+              The Makini Campbell Approach centers on the belief that meaningful transformation begins
+              when individuals reconnect with their authentic selves and align their actions with
+              purpose. Drawing from experience across education, leadership, athletics, and holistic
+              wellness, Makini combines reflective insight with practical guidance to support
+              sustainable personal and professional growth.
+            </BodyText>
+          </div>
+        </RevealSection>
+
+        <RevealSection delay={0.1}>
+          <div
+            style={{
+              textAlign: "center",
+              padding: "40px",
+              background: colors.sandLight,
+              borderLeft: `3px solid ${colors.gold}`,
+              marginBottom: "64px",
+            }}
+          >
+            <p
+              style={{
+                fontFamily: fonts.accent,
+                fontSize: "22px",
+                fontStyle: "italic",
+                lineHeight: 1.7,
+                color: colors.warmGray,
+              }}
+            >
+              &ldquo;True success is not measured only by achievement, but by alignment&mdash;living
+              with clarity, intention, and integrity.&rdquo;
+            </p>
+          </div>
+        </RevealSection>
+
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+            gap: "32px",
+          }}
+        >
+          {guidingPrinciples.map((principle, i) => (
+            <RevealSection key={i} delay={i * 0.12}>
+              <div style={{ textAlign: "center", padding: "36px 24px" }}>
+                <span
+                  style={{
+                    fontFamily: fonts.display,
+                    fontSize: "32px",
+                    color: colors.gold,
+                    display: "block",
+                    marginBottom: "16px",
+                  }}
+                >
+                  {principle.icon}
+                </span>
+                <h3
+                  style={{
+                    fontFamily: fonts.display,
+                    fontSize: "22px",
+                    fontWeight: 500,
+                    color: colors.espresso,
+                    marginBottom: "12px",
+                  }}
+                >
+                  {principle.title}
+                </h3>
+                <BodyText style={{ margin: "0 auto", textAlign: "center", fontSize: "14px" }}>
+                  {principle.description}
+                </BodyText>
+              </div>
+            </RevealSection>
+          ))}
+        </div>
+      </Container>
+    </section>
+
+    {/* FEATURED QUOTE */}
+    <section
+      style={{
+        padding: "80px 0",
+        background: colors.espresso,
+      }}
+    >
+      <Container>
+        <RevealSection>
+          <div style={{ textAlign: "center", maxWidth: "680px", margin: "0 auto" }}>
+            <p
+              style={{
+                fontFamily: fonts.accent,
+                fontSize: "clamp(22px, 3vw, 30px)",
+                fontStyle: "italic",
+                lineHeight: 1.6,
+                color: colors.taupeLight,
+              }}
+            >
+              &ldquo;{ownerInfo.quote}&rdquo;
+            </p>
+            <span
+              style={{
+                fontFamily: fonts.body,
+                fontSize: "12px",
+                letterSpacing: "2px",
+                textTransform: "uppercase",
+                color: colors.gold,
+                display: "block",
+                marginTop: "24px",
+              }}
+            >
+              &mdash; {ownerInfo.name}
+            </span>
+          </div>
+        </RevealSection>
+      </Container>
+    </section>
+
     {/* YOUTUBE PREVIEW */}
     <section style={{ padding: "100px 0" }}>
       <Container>
@@ -275,7 +467,7 @@ const HomePage = () => (
         <RevealSection delay={0.25}>
           <div style={{ textAlign: "center", marginTop: "40px" }}>
             <Button variant="outline" to="/videos">
-              Watch More Videos →
+              Watch More Videos &rarr;
             </Button>
           </div>
         </RevealSection>
@@ -322,7 +514,7 @@ const HomePage = () => (
                     marginBottom: "20px",
                   }}
                 >
-                  "{t.quote}"
+                  &ldquo;{t.quote}&rdquo;
                 </p>
                 <span
                   style={{
@@ -333,7 +525,7 @@ const HomePage = () => (
                     color: colors.gold,
                   }}
                 >
-                  — {t.name}
+                  &mdash; {t.name}
                 </span>
               </div>
             </RevealSection>
@@ -353,8 +545,7 @@ const HomePage = () => (
               <Divider />
             </div>
             <BodyText style={{ margin: "0 auto 32px", textAlign: "center" }}>
-              Receive reflections, updates on upcoming workshops and retreats, and gentle reminders
-              to nurture your soul.
+              Your journey toward alignment, clarity, and purpose starts here.
             </BodyText>
             <NewsletterForm />
           </div>

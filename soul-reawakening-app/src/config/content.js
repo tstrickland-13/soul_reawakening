@@ -6,69 +6,68 @@
 export const services = [
   {
     id: 1,
-    title: "Soul Discovery Session",
+    title: "The Alignment Intensive",
+    subtitle: "90\u2013120 Minute Strategic Reset",
     category: "coaching",
-    price: "$150",
-    duration: "60 min",
-    description: "A deep-dive introductory session to explore your goals, challenges, and path forward.",
-    featured: true,
+    description: "A focused coaching session designed for individuals navigating life transitions, important decisions, or moments of uncertainty. This session creates space for reflection, clarity, and practical next steps toward alignment.",
+    bestFor: [
+      "Life or career crossroads",
+      "Soul discovery and personal clarity",
+      "Parents supporting young athletes",
+      "Individuals seeking direction and alignment",
+    ],
+    price: "Investment details provided upon inquiry",
   },
   {
     id: 2,
-    title: "Transformative Coaching Package",
+    title: "The 90-Day Purpose Reset",
+    subtitle: "Transformative Coaching Experience",
     category: "coaching",
-    price: "$500",
-    duration: "4 sessions",
-    description: "A four-session journey designed for lasting change. Includes personalized exercises and ongoing support.",
+    description: "A three-month coaching container designed to support personal growth and purposeful living. Through guided reflection and strategic coaching, clients gain clarity, strengthen self-awareness, and develop habits that support lasting transformation.",
+    bestFor: [
+      "Individuals navigating major life transitions",
+      "Professionals seeking renewed purpose",
+      "Parent-athletes balancing family, sports, and personal growth",
+      "Individuals committed to self-discovery and alignment",
+    ],
+    price: "Investment details provided upon inquiry",
   },
   {
     id: 3,
-    title: "Parent-Athlete Coaching",
+    title: "Purpose to Power Leadership Advisory",
+    subtitle: "High-Level Coaching for Leaders",
     category: "coaching",
-    price: "$175",
-    duration: "60 min",
-    description: "Specialized support for parents navigating the pressures and joys of raising student-athletes.",
+    description: "A coaching and advisory experience for professionals, educators, and leaders seeking to align their work with deeper purpose. This offering blends reflective coaching with practical leadership development to support authentic and impactful leadership.",
+    bestFor: [
+      "Professionals and leaders in transition",
+      "Educators and youth development professionals",
+      "Individuals seeking purpose-driven leadership",
+    ],
+    price: "Investment details provided upon inquiry",
   },
   {
     id: 4,
-    title: "Awakening Workshop",
+    title: "Awakening Workshops",
+    subtitle: "Interactive Group Experience",
     category: "workshops",
-    price: "$75",
-    duration: "Half-day",
-    description: "A group workshop exploring mindfulness techniques, self-reflection, and community connection.",
+    description: "Interactive workshops focused on self-reflection, soul discovery, and reconnecting with personal purpose. These experiences provide tools for growth, alignment, and meaningful life transitions.",
+    price: "Investment details provided upon inquiry",
   },
   {
     id: 5,
-    title: "Mindful Parenting Workshop",
+    title: "Mindful Parenting Workshops",
+    subtitle: "For Parents & Families",
     category: "workshops",
-    price: "$65",
-    duration: "2 hours",
-    description: "Tools and practices for parents seeking balance, presence, and deeper connection with their children.",
+    description: "Workshops designed to support parents\u2014especially parents of athletes\u2014in cultivating balance, communication, and holistic family well-being.",
+    price: "Investment details provided upon inquiry",
   },
   {
     id: 6,
-    title: "Soul Renewal Retreat",
+    title: "Soul Renewal Retreats",
+    subtitle: "Immersive Experience",
     category: "retreats",
-    price: "$1,200",
-    duration: "Weekend",
-    description: "An immersive weekend retreat in nature. Includes lodging, meals, guided sessions, and integration support.",
-    featured: true,
-  },
-  {
-    id: 7,
-    title: "The Reawakening Journal",
-    category: "books",
-    price: "$28",
-    duration: "",
-    description: "A guided journal for daily reflection, intention-setting, and spiritual growth.",
-  },
-  {
-    id: 8,
-    title: "Finding Your Way Back",
-    category: "books",
-    price: "$22",
-    duration: "",
-    description: "Makini's guide to navigating life transitions with grace, courage, and inner wisdom.",
+    description: "Immersive retreat experiences designed to help participants step away from daily demands and reconnect with themselves. Through reflection, community, and restorative practices, participants leave with renewed clarity and purpose.",
+    price: "Investment details provided upon inquiry",
   },
 ];
 
@@ -79,7 +78,7 @@ export const blogPosts = [
     title: "The Art of Coming Home to Yourself",
     date: "February 2026",
     category: "Reflection",
-    excerpt: "In the quiet moments between the noise of our daily lives, there exists an invitation — a gentle call to return to the person we've always been beneath the layers.",
+    excerpt: "In the quiet moments between the noise of our daily lives, there exists an invitation \u2014 a gentle call to return to the person we've always been beneath the layers.",
     featured: true,
   },
   {
@@ -104,7 +103,7 @@ export const blogPosts = [
     title: "Setting Boundaries with Love",
     date: "December 2025",
     category: "Wellness",
-    excerpt: "Boundaries aren't walls — they're bridges to deeper, more honest relationships. Learn how to set them without guilt.",
+    excerpt: "Boundaries aren't walls \u2014 they're bridges to deeper, more honest relationships. Learn how to set them without guilt.",
   },
   {
     id: 5,
@@ -139,7 +138,7 @@ export const testimonials = [
   },
   {
     id: 3,
-    quote: "Makini has a gift for holding space. Her coaching is both gentle and powerful — exactly what I needed.",
+    quote: "Makini has a gift for holding space. Her coaching is both gentle and powerful \u2014 exactly what I needed.",
     name: "Michelle T.",
     title: "Coaching Client",
   },
@@ -148,28 +147,60 @@ export const testimonials = [
 export const offerings = [
   {
     title: "1:1 Coaching",
-    description: "Personalized sessions to guide you through your unique journey of self-discovery and healing.",
-    icon: "✧",
+    description: "Personalized coaching experiences for individuals navigating life transitions, important decisions, or moments of uncertainty.",
+    icon: "\u2727",
   },
   {
     title: "Workshops",
-    description: "Group experiences designed to build community, expand awareness, and cultivate inner peace.",
-    icon: "◈",
+    description: "Interactive group experiences focused on self-reflection, soul discovery, and reconnecting with personal purpose.",
+    icon: "\u25C8",
   },
   {
     title: "Retreats",
-    description: "Immersive getaways that create space for deep reflection, renewal, and spiritual connection.",
-    icon: "◇",
+    description: "Immersive retreat experiences designed to help participants step away from daily demands and reconnect with themselves.",
+    icon: "\u25C7",
   },
 ];
 
+export const guidingPrinciples = [
+  {
+    title: "Holistic Perspective",
+    description: "Growth is approached through the integration of mind, body, and spirit, supporting whole-person well-being and balanced success.",
+    icon: "\u25C7",
+  },
+  {
+    title: "Safe and Supportive Space",
+    description: "A grounded and trusting environment where individuals can reflect, explore challenges, and reconnect with their inner wisdom.",
+    icon: "\u2727",
+  },
+  {
+    title: "Practical Wisdom",
+    description: "Thoughtful reflection paired with actionable strategies that help clients move forward with clarity and intention.",
+    icon: "\u25C8",
+  },
+  {
+    title: "Purpose-Led Growth",
+    description: "Guiding individuals to align their values, decisions, and goals so they can live and lead with authenticity and purpose.",
+    icon: "\u2606",
+  },
+];
+
+export const targetAudience = [
+  "Individuals navigating life transitions",
+  "Parents and families in youth athletics",
+  "Students and emerging leaders",
+  "Professionals seeking clarity and purpose",
+  "Educators and community leaders",
+  "Individuals committed to personal transformation",
+];
+
 export const quickLinks = [
-  { label: "Book a Session", icon: "✧", path: "/booking" },
-  { label: "Shop Coaching & Workshops", icon: "◈", path: "/shop" },
-  { label: "Watch on YouTube", icon: "▶", external: true },
-  { label: "Read the Blog", icon: "✎", path: "/blog" },
-  { label: "About Makini", icon: "◇", path: "/about" },
-  { label: "Contact Me", icon: "✉", path: "/contact" },
+  { label: "Book A Free Discovery Call", icon: "\u2727", path: "/booking" },
+  { label: "Explore Offerings", icon: "\u25C8", path: "/shop" },
+  { label: "Watch on YouTube", icon: "\u25B6", external: true },
+  { label: "Read the Blog", icon: "\u270E", path: "/blog" },
+  { label: "About Makini", icon: "\u25C7", path: "/about" },
+  { label: "Contact Me", icon: "\u2709", path: "/contact" },
 ];
 
 export default {
@@ -177,5 +208,7 @@ export default {
   blogPosts,
   testimonials,
   offerings,
+  guidingPrinciples,
+  targetAudience,
   quickLinks,
 };

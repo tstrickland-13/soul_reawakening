@@ -13,12 +13,13 @@ import {
 import SEO from '../components/SEO';
 import { colors, fonts } from '../config/tokens';
 import { ownerInfo } from '../config/site';
+import { guidingPrinciples } from '../config/content';
 
 const AboutPage = () => (
   <div style={{ paddingTop: "120px" }}>
     <SEO
       title="About"
-      description={`Learn about ${ownerInfo.name}, holistic wellness coach and founder of Soul Reawakening.`}
+      description={`Learn about ${ownerInfo.name}, holistic wellness coach, consultant, and educator, and founder of Soul Reawakening.`}
     />
 
     {/* Hero */}
@@ -57,12 +58,29 @@ const AboutPage = () => (
                 marginBottom: "32px",
               }}
             >
-              "{ownerInfo.quote}"
+              &ldquo;{ownerInfo.quote}&rdquo;
+              <br />
+              <span
+                style={{
+                  fontFamily: fonts.body,
+                  fontSize: "13px",
+                  letterSpacing: "1.5px",
+                  textTransform: "uppercase",
+                  color: colors.gold,
+                  fontStyle: "normal",
+                  display: "inline-block",
+                  marginTop: "12px",
+                }}
+              >
+                &mdash; {ownerInfo.name}
+              </span>
             </p>
 
-            <BodyText>{ownerInfo.bio}</BodyText>
-            <BodyText style={{ marginTop: "20px" }}>{ownerInfo.extendedBio}</BodyText>
-            <BodyText style={{ marginTop: "20px" }}>{ownerInfo.athleteBio}</BodyText>
+            {ownerInfo.extendedBio.map((paragraph, i) => (
+              <BodyText key={i} style={{ marginTop: i === 0 ? "0" : "20px" }}>
+                {paragraph}
+              </BodyText>
+            ))}
 
             <div
               style={{
@@ -110,7 +128,7 @@ const AboutPage = () => (
       </Container>
     </section>
 
-    {/* Values Section */}
+    {/* Guiding Principles Section */}
     <section style={{ padding: "100px 0", background: colors.warmWhite }}>
       <Container>
         <RevealSection>
@@ -126,30 +144,11 @@ const AboutPage = () => (
         <div
           style={{
             display: "grid",
-            gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+            gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
             gap: "40px",
           }}
         >
-          {[
-            {
-              title: "Holistic Perspective",
-              description:
-                "I believe in nurturing the whole person — mind, body, and spirit. True transformation happens when we address all aspects of our being.",
-              icon: "◇",
-            },
-            {
-              title: "Safe Space",
-              description:
-                "Every session is held in a container of trust, confidentiality, and non-judgment. Your story is sacred, and you are always in control.",
-              icon: "✧",
-            },
-            {
-              title: "Practical Wisdom",
-              description:
-                "Spiritual growth doesn't have to be abstract. I blend timeless wisdom with evidence-based practices you can apply immediately.",
-              icon: "◈",
-            },
-          ].map((value, i) => (
+          {guidingPrinciples.map((value, i) => (
             <RevealSection key={i} delay={i * 0.12}>
               <div style={{ textAlign: "center" }}>
                 <span

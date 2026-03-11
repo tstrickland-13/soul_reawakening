@@ -71,7 +71,7 @@ const LinksPage = () => (
             marginTop: "8px",
           }}
         >
-          Holistic coaching for the soul ✧
+          A Life in Motion ✧
         </p>
       </div>
 

@@ -14,23 +14,29 @@ import { siteConfig } from '../config/site';
 const BookingPage = () => (
   <div style={{ paddingTop: "120px" }}>
     <SEO
-      title="Book a Session"
-      description="Schedule your coaching session with Makini. Choose a time that works for you."
+      title="Begin Your Journey"
+      description="Schedule a Discovery Conversation with Makini to explore where you are in your journey and what support may help you move forward."
     />
 
     <section style={{ padding: "60px 0 100px" }}>
       <Container>
         <div className="animate-in" style={{ textAlign: "center", marginBottom: "48px" }}>
-          <SectionLabel>Book a Session</SectionLabel>
+          <SectionLabel>Begin Your Journey</SectionLabel>
           <PageTitle>
-            Schedule Your <Highlight>Time</Highlight>
+            Begin Your <Highlight>Journey</Highlight>
           </PageTitle>
           <div style={{ display: "flex", justifyContent: "center" }}>
             <Divider />
           </div>
           <BodyText style={{ margin: "0 auto", textAlign: "center" }}>
-            Ready to begin? Choose a time that works for you. Whether it's an introductory session
-            or a follow-up — I'm here to support your journey.
+            A Discovery Conversation is a space for us to connect and explore where you are in your
+            journey and what support may help you move forward with clarity and purpose. This
+            conversation allows us to reflect on what you&rsquo;re navigating and determine whether
+            working together feels aligned.
+          </BodyText>
+          <BodyText style={{ margin: "16px auto 0", textAlign: "center" }}>
+            Whether you are navigating a life transition, seeking clarity, supporting a young athlete
+            as a parent, or ready to step into your fullest potential, this conversation is the first step.
           </BodyText>
         </div>
 
@@ -51,7 +57,7 @@ const BookingPage = () => (
                 border: "none",
                 minHeight: "640px",
               }}
-              title="Book a Session with Makini"
+              title="Schedule a Discovery Conversation"
               loading="lazy"
             />
           </div>
@@ -71,22 +77,22 @@ const BookingPage = () => (
           >
             {[
               {
-                icon: "✧",
-                title: "Choose Your Session",
+                icon: "\u2727",
+                title: "Explore",
                 description:
-                  "Browse available session types and select what resonates with your needs.",
+                  "Reflect on where you are in your journey and what support might help you move forward.",
               },
               {
-                icon: "◈",
-                title: "Pick a Time",
+                icon: "\u25C8",
+                title: "Connect",
                 description:
-                  "Find a slot that works with your schedule. All sessions are conducted virtually.",
+                  "Schedule a Discovery Conversation to explore whether working together feels aligned.",
               },
               {
-                icon: "◇",
-                title: "Show Up as You Are",
+                icon: "\u25C7",
+                title: "Begin",
                 description:
-                  "No preparation needed. Come with an open heart and a willingness to explore.",
+                  "Take the first step toward alignment, clarity, and purpose.",
               },
             ].map((step, i) => (
               <div key={i}>
