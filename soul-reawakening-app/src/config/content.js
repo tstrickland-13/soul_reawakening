@@ -126,21 +126,51 @@ export const blogPosts = [
 export const testimonials = [
   {
     id: 1,
-    quote: "Working with Makini was a turning point in my life. She helped me see myself clearly for the first time in years.",
-    name: "Sarah M.",
-    title: "Life Coaching Client",
+    quote: "Makini consistently demonstrates leadership and mentorship to her clientele. She has empowered countless athletes and professionals to excel not only in their careers but in all aspects of their lives. Makini\u2019s remarkable ability to inspire positive energy, impactful growth, lasting change, and greatness in her clients is a part of her unique authentic self.",
+    name: "Ray Miller",
+    title: "NBA Scout, Orlando Magic",
   },
   {
     id: 2,
-    quote: "The retreat experience was absolutely transformative. I left feeling renewed, grounded, and full of purpose.",
-    name: "Jennifer L.",
-    title: "Retreat Participant",
+    quote: "Her approach goes far beyond performance\u2014it\u2019s rooted in wellness, confidence, and personal growth. She has helped them build healthy habits, set meaningful goals, and develop stronger social and emotional skills. As a parent, I\u2019ve seen a transformation not just in how my children respond to daily encounters, but in how they carry themselves in school and in life.",
+    name: "Dr. Kay Mash",
+    title: "Parent",
   },
   {
     id: 3,
-    quote: "Makini has a gift for holding space. Her coaching is both gentle and powerful \u2014 exactly what I needed.",
-    name: "Michelle T.",
-    title: "Coaching Client",
+    quote: "What sets her apart is her unique ability to create a safe, trusting space, which makes the coaching process not only effective but sustainable. She has a true gift for guiding others to success, and her approach has proven time and again to be a game-changer.",
+    name: "Alex Kline \u201916",
+    title: "GM, Syracuse University Basketball",
+  },
+  {
+    id: 4,
+    quote: "Makini Life Coaching helped me discover new opportunities and make confident decisions when they came my way. She gave me a fresh perspective, helping me see that I have more control than I realized and that it\u2019s possible to stay true to myself while balancing life.",
+    name: "SSGT Ti\u2019Laja Epting",
+    title: "Armed Forces / University of Arkansas Pre-Law Alumni",
+  },
+  {
+    id: 5,
+    quote: "She taught them, including myself, that success isn\u2019t just measured in wins, but in character, discipline, and consistency\u2014both on and off the court. Her dedication to helping student-athletes navigate the journey to becoming well-rounded men has left a lasting legacy.",
+    name: "Sean Valentine",
+    title: "Rider University Alumni / Roc Nation Operations",
+  },
+  {
+    id: 6,
+    quote: "As parents of student-athletes, my wife and I have turned to Makini for support in navigating difficult situations with our children\u2014from addressing racism and bullying in school to understanding the college athletic recruiting process. Her calm presence and practical insight helped us approach these moments with clarity and confidence.",
+    name: "Kevin Israel",
+    title: "Parent of Student-Athletes",
+  },
+  {
+    id: 7,
+    quote: "Through her guidance, I learned how to break down goals, quiet the mental chatter, and approach challenges with clarity and confidence. Each session helped me move forward in practical and manageable ways. Makini is empathetic, a thoughtful listener, and deeply committed to the well-being of the people she works with.",
+    name: "Maria Wertzler",
+    title: "Parent of a Student-Athlete",
+  },
+  {
+    id: 8,
+    quote: "Makini\u2019s coaching has helped me grow not only as an athlete but as a person. Because she was an athlete and has raised athletes, she understands the challenges I face. Makini listens, adapts to my needs, and makes every session feel meaningful.",
+    name: "Justice Wertzler",
+    title: "Student-Athlete",
   },
 ];
 
