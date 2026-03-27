@@ -11,6 +11,7 @@ export const siteConfig = {
   
   // Contact
   email: "soulreawakening@gmail.com",
+  phone: "(678) 469-0765",
   location: "New York City",
   
   // Social Links

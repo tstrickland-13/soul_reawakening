@@ -62,6 +62,7 @@ const ContactPage = () => (
               <div style={{ marginTop: "40px" }}>
                 {[
                   { label: "Email", value: siteConfig.email, icon: "✉", href: `mailto:${siteConfig.email}` },
+                  { label: "Phone", value: siteConfig.phone, icon: "✆", href: `tel:${siteConfig.phone.replace(/\D/g, '')}` },
                   {
                     label: "Instagram",
                     value: siteConfig.social.instagram,
