@@ -36,6 +36,7 @@ const AboutPage = () => (
         </div>
 
         <div
+          className="mobile-grid-stack mobile-gap-sm"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
@@ -129,7 +130,7 @@ const AboutPage = () => (
     </section>
 
     {/* Guiding Principles Section */}
-    <section style={{ padding: "100px 0", background: colors.warmWhite }}>
+    <section className="mobile-section" style={{ padding: "100px 0", background: colors.warmWhite }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "64px" }}>
@@ -142,6 +143,7 @@ const AboutPage = () => (
         </RevealSection>
 
         <div
+          className="mobile-grid-stack"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",

@@ -76,6 +76,7 @@ const VideosPage = () => {
               </RevealSection>
 
               <div
+                className="mobile-grid-stack"
                 style={{
                   display: "grid",
                   gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
@@ -134,6 +135,7 @@ const VideosPage = () => {
           {/* Subscribe CTA */}
           <RevealSection delay={0.3}>
             <div
+              className="mobile-pad-sm"
               style={{
                 marginTop: "64px",
                 padding: "48px",

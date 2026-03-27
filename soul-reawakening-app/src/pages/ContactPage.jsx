@@ -32,6 +32,7 @@ const ContactPage = () => (
         </div>
 
         <div
+          className="mobile-grid-stack mobile-gap-sm"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",

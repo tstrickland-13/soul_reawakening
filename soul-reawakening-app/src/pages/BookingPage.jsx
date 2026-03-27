@@ -65,6 +65,7 @@ const BookingPage = () => (
 
         <RevealSection delay={0.15}>
           <div
+            className="mobile-pad-sm mobile-grid-stack"
             style={{
               marginTop: "48px",
               padding: "40px",

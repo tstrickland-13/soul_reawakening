@@ -62,12 +62,26 @@ const GlobalStyles = () => (
     img { max-width: 100%; display: block; }
 
     /* Responsive utilities */
+    .site-container { padding-left: 32px; padding-right: 32px; }
+
     @media (max-width: 1024px) {
       .hide-tablet { display: none !important; }
     }
 
     @media (max-width: 768px) {
       .hide-mobile { display: none !important; }
+      .nav-brand-text { display: none !important; }
+      .site-container { padding-left: 20px; padding-right: 20px; }
+      .mobile-grid-stack { grid-template-columns: 1fr !important; }
+      .mobile-gap-sm { gap: 32px !important; }
+      .mobile-pad-sm { padding: 24px !important; }
+      .mobile-section { padding-top: 60px !important; padding-bottom: 60px !important; }
+      .mobile-text-center { text-align: center !important; justify-content: center !important; }
+      .mobile-footer-pad { padding: 60px 0 32px !important; }
+    }
+
+    @media (max-width: 480px) {
+      .site-container { padding-left: 16px; padding-right: 16px; }
     }
 
     @media (min-width: 769px) {

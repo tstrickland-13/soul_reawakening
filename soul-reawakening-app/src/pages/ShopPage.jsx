@@ -80,9 +80,10 @@ const ShopPage = () => {
 
           {/* Products Grid */}
           <div
+            className="mobile-grid-stack"
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(auto-fill, minmax(340px, 1fr))",
+              gridTemplateColumns: "repeat(auto-fill, minmax(300px, 1fr))",
               gap: "24px",
             }}
           >
@@ -233,7 +234,7 @@ const ShopPage = () => {
       </section>
 
       {/* Quote */}
-      <section style={{ padding: "80px 0", background: colors.sandLight }}>
+      <section className="mobile-section" style={{ padding: "80px 0", background: colors.sandLight }}>
         <Container>
           <RevealSection>
             <div style={{ textAlign: "center", maxWidth: "640px", margin: "0 auto" }}>
@@ -254,7 +255,7 @@ const ShopPage = () => {
       </section>
 
       {/* Who This Work Is For */}
-      <section style={{ padding: "100px 0" }}>
+      <section className="mobile-section" style={{ padding: "100px 0" }}>
         <Container>
           <RevealSection>
             <div style={{ textAlign: "center", marginBottom: "48px" }}>

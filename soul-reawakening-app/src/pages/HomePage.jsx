@@ -130,8 +130,9 @@ const HomePage = () => (
     </section>
 
     {/* ABOUT PREVIEW */}
-    <section style={{ padding: "120px 0" }}>
+    <section className="mobile-section" style={{ padding: "120px 0" }}>
       <Container
+        className="mobile-gap-sm mobile-grid-stack"
         style={{
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
@@ -166,7 +167,7 @@ const HomePage = () => (
     </section>
 
     {/* FOCUS AREAS */}
-    <section style={{ padding: "100px 0", background: colors.sandLight }}>
+    <section className="mobile-section" style={{ padding: "100px 0", background: colors.sandLight }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
@@ -209,7 +210,7 @@ const HomePage = () => (
     </section>
 
     {/* SERVICES PREVIEW */}
-    <section style={{ padding: "100px 0", background: colors.warmWhite }}>
+    <section className="mobile-section" style={{ padding: "100px 0", background: colors.warmWhite }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "64px" }}>
@@ -228,6 +229,7 @@ const HomePage = () => (
         </RevealSection>
 
         <div
+          className="mobile-grid-stack"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
@@ -297,7 +299,7 @@ const HomePage = () => (
     </section>
 
     {/* THE MAKINI CAMPBELL APPROACH */}
-    <section style={{ padding: "100px 0" }}>
+    <section className="mobile-section" style={{ padding: "100px 0" }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
@@ -342,6 +344,7 @@ const HomePage = () => (
         </RevealSection>
 
         <div
+          className="mobile-grid-stack"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
@@ -423,7 +426,7 @@ const HomePage = () => (
     </section>
 
     {/* YOUTUBE PREVIEW */}
-    <section style={{ padding: "100px 0" }}>
+    <section className="mobile-section" style={{ padding: "100px 0" }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
@@ -475,7 +478,7 @@ const HomePage = () => (
     </section>
 
     {/* TESTIMONIALS */}
-    <section style={{ padding: "100px 0", background: colors.espresso }}>
+    <section className="mobile-section" style={{ padding: "100px 0", background: colors.espresso }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "64px" }}>
@@ -495,6 +498,7 @@ const HomePage = () => (
         </RevealSection>
 
         <div
+          className="mobile-grid-stack"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
@@ -535,7 +539,7 @@ const HomePage = () => (
     </section>
 
     {/* EMAIL SIGNUP */}
-    <section style={{ padding: "100px 0", background: colors.sandLight }}>
+    <section className="mobile-section" style={{ padding: "100px 0", background: colors.sandLight }}>
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", maxWidth: "560px", margin: "0 auto" }}>

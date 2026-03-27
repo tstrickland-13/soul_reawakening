@@ -49,6 +49,7 @@ const Navigation = () => {
               style={{ height: scrolled ? "36px" : "42px", width: "auto", transition: "height 0.4s ease" }}
             />
             <span
+              className="nav-brand-text"
               style={{
                 fontFamily: fonts.display,
                 fontSize: "22px",
@@ -137,10 +138,16 @@ const Navigation = () => {
             bottom: 0,
             background: colors.cream,
             zIndex: 999,
-            paddingTop: "100px",
+            paddingTop: "80px",
             animation: "fadeIn 0.3s ease",
+            display: "flex",
+            flexDirection: "column",
+            alignItems: "center",
           }}
         >
+          <Link to="/" onClick={() => setMenuOpen(false)} style={{ marginBottom: "32px" }}>
+            <img src="/logo.png" alt="Soul Reawakening" style={{ height: "64px", width: "auto" }} />
+          </Link>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "24px" }}>
             {navLinks.map(({ label, path }) => (
               <Link

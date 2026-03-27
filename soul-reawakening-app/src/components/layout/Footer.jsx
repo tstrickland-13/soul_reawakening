@@ -17,9 +17,10 @@ const Footer = () => {
   };
 
   return (
-    <footer style={{ background: colors.espresso, padding: "80px 0 40px" }}>
+    <footer className="mobile-footer-pad" style={{ background: colors.espresso, padding: "80px 0 40px" }}>
       <Container>
         <div
+          className="mobile-grid-stack mobile-gap-sm"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))",
@@ -173,6 +174,7 @@ const Footer = () => {
 
         {/* Bottom bar */}
         <div
+          className="mobile-text-center"
           style={{
             borderTop: `1px solid ${colors.warmGray}33`,
             paddingTop: "24px",
