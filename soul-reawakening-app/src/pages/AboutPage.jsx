@@ -66,7 +66,7 @@ const AboutPage = () => (
                   fontSize: "13px",
                   letterSpacing: "1.5px",
                   textTransform: "uppercase",
-                  color: colors.gold,
+                  color: colors.burntOrange,
                   fontStyle: "normal",
                   display: "inline-block",
                   marginTop: "12px",
@@ -155,7 +155,7 @@ const AboutPage = () => (
                   style={{
                     fontFamily: fonts.display,
                     fontSize: "36px",
-                    color: colors.gold,
+                    color: colors.burntOrange,
                     display: "block",
                     marginBottom: "16px",
                   }}

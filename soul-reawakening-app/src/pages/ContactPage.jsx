@@ -89,7 +89,7 @@ const ContactPage = () => (
                       style={{
                         fontFamily: fonts.display,
                         fontSize: "18px",
-                        color: colors.gold,
+                        color: colors.burntOrange,
                         width: "28px",
                       }}
                     >
@@ -119,7 +119,7 @@ const ContactPage = () => (
                             color: colors.charcoal,
                             transition: "color 0.3s ease",
                           }}
-                          onMouseEnter={(e) => (e.target.style.color = colors.gold)}
+                          onMouseEnter={(e) => (e.target.style.color = colors.burntOrange)}
                           onMouseLeave={(e) => (e.target.style.color = colors.charcoal)}
                         >
                           {item.value}

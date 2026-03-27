@@ -7,7 +7,7 @@ export const SectionLabel = ({ children, style = {} }) => (
       fontSize: "11px",
       letterSpacing: "3px",
       textTransform: "uppercase",
-      color: colors.gold,
+      color: colors.burntOrange,
       fontWeight: 600,
       ...style,
     }}
@@ -66,7 +66,7 @@ export const Divider = ({ style = {} }) => (
     style={{
       width: "48px",
       height: "1px",
-      background: `linear-gradient(90deg, ${colors.gold}, ${colors.taupe})`,
+      background: `linear-gradient(90deg, ${colors.burntOrange}, ${colors.taupe})`,
       margin: "20px 0",
       ...style,
     }}
@@ -74,7 +74,7 @@ export const Divider = ({ style = {} }) => (
 );
 
 export const Highlight = ({ children }) => (
-  <span style={{ fontStyle: "italic", fontWeight: 400, color: colors.gold }}>
+  <span style={{ fontStyle: "italic", fontWeight: 400, color: colors.burntOrange }}>
     {children}
   </span>
 );

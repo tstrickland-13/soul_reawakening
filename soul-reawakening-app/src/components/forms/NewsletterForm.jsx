@@ -38,7 +38,7 @@ const NewsletterForm = ({ variant = "inline" }) => {
           style={{
             fontFamily: fonts.body,
             fontSize: "14px",
-            color: colors.gold,
+            color: colors.burntOrange,
             fontWeight: 500,
           }}
         >

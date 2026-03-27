@@ -37,7 +37,7 @@ const HomePage = () => (
           width: "600px",
           height: "600px",
           borderRadius: "50%",
-          background: `radial-gradient(circle, ${colors.gold}08 0%, transparent 70%)`,
+          background: `radial-gradient(circle, ${colors.burntOrange}08 0%, transparent 70%)`,
           top: "50%",
           left: "50%",
           transform: "translate(-50%, -50%)",
@@ -63,7 +63,7 @@ const HomePage = () => (
           }}
         >
           Soul{" "}
-          <span style={{ fontStyle: "italic", fontWeight: 400, color: colors.gold }}>
+          <span style={{ fontStyle: "italic", fontWeight: 400, color: colors.burntOrange }}>
             Reawakening
           </span>
         </h1>
@@ -75,7 +75,7 @@ const HomePage = () => (
             fontSize: "clamp(20px, 3vw, 30px)",
             fontWeight: 300,
             fontStyle: "italic",
-            color: colors.gold,
+            color: colors.burntOrange,
             marginBottom: "8px",
             letterSpacing: "1px",
           }}
@@ -247,7 +247,7 @@ const HomePage = () => (
                     cursor: "pointer",
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = colors.gold;
+                    e.currentTarget.style.borderColor = colors.burntOrange;
                     e.currentTarget.style.transform = "translateY(-4px)";
                     e.currentTarget.style.boxShadow = "0 12px 40px rgba(0,0,0,0.06)";
                   }}
@@ -261,7 +261,7 @@ const HomePage = () => (
                     style={{
                       fontFamily: fonts.display,
                       fontSize: "32px",
-                      color: colors.gold,
+                      color: colors.burntOrange,
                       display: "block",
                       marginBottom: "20px",
                     }}
@@ -322,7 +322,7 @@ const HomePage = () => (
               textAlign: "center",
               padding: "40px",
               background: colors.sandLight,
-              borderLeft: `3px solid ${colors.gold}`,
+              borderLeft: `3px solid ${colors.burntOrange}`,
               marginBottom: "64px",
             }}
           >
@@ -355,7 +355,7 @@ const HomePage = () => (
                   style={{
                     fontFamily: fonts.display,
                     fontSize: "32px",
-                    color: colors.gold,
+                    color: colors.burntOrange,
                     display: "block",
                     marginBottom: "16px",
                   }}
@@ -410,7 +410,7 @@ const HomePage = () => (
                 fontSize: "12px",
                 letterSpacing: "2px",
                 textTransform: "uppercase",
-                color: colors.gold,
+                color: colors.burntOrange,
                 display: "block",
                 marginTop: "24px",
               }}
@@ -487,7 +487,7 @@ const HomePage = () => (
               style={{
                 width: "48px",
                 height: "1px",
-                background: colors.gold,
+                background: colors.burntOrange,
                 margin: "20px auto",
               }}
             />
@@ -503,7 +503,7 @@ const HomePage = () => (
         >
           {testimonials.map((t, i) => (
             <RevealSection key={t.id} delay={i * 0.12}>
-              <div style={{ padding: "40px 32px", borderLeft: `2px solid ${colors.gold}` }}>
+              <div style={{ padding: "40px 32px", borderLeft: `2px solid ${colors.burntOrange}` }}>
                 <p
                   style={{
                     fontFamily: fonts.accent,
@@ -522,7 +522,7 @@ const HomePage = () => (
                     fontSize: "12px",
                     letterSpacing: "1.5px",
                     textTransform: "uppercase",
-                    color: colors.gold,
+                    color: colors.burntOrange,
                   }}
                 >
                   &mdash; {t.name}

@@ -150,7 +150,7 @@ const ContactForm = () => {
               placeholder={field.placeholder}
               required={field.required}
               style={inputStyle}
-              onFocus={(e) => (e.target.style.borderColor = colors.gold)}
+              onFocus={(e) => (e.target.style.borderColor = colors.burntOrange)}
               onBlur={(e) => (e.target.style.borderColor = colors.sand)}
             />
           </div>
@@ -171,7 +171,7 @@ const ContactForm = () => {
               resize: "vertical",
               lineHeight: 1.7,
             }}
-            onFocus={(e) => (e.target.style.borderColor = colors.gold)}
+            onFocus={(e) => (e.target.style.borderColor = colors.burntOrange)}
             onBlur={(e) => (e.target.style.borderColor = colors.sand)}
           />
         </div>

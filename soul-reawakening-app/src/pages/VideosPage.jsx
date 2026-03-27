@@ -163,7 +163,7 @@ const VideosPage = () => {
                 style={{
                   display: "inline-block",
                   padding: "16px 40px",
-                  background: colors.gold,
+                  background: colors.burntOrange,
                   color: colors.white,
                   fontFamily: fonts.body,
                   fontSize: "12px",
@@ -172,8 +172,8 @@ const VideosPage = () => {
                   fontWeight: 600,
                   transition: "background 0.3s ease",
                 }}
-                onMouseEnter={(e) => (e.currentTarget.style.background = colors.goldLight)}
-                onMouseLeave={(e) => (e.currentTarget.style.background = colors.gold)}
+                onMouseEnter={(e) => (e.currentTarget.style.background = colors.burntOrangeLight)}
+                onMouseLeave={(e) => (e.currentTarget.style.background = colors.burntOrange)}
               >
                 Subscribe on YouTube
               </a>

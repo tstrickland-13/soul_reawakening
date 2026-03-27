@@ -100,7 +100,7 @@ const ShopPage = () => {
                     flexDirection: "column",
                   }}
                   onMouseEnter={(e) => {
-                    e.currentTarget.style.borderColor = colors.gold;
+                    e.currentTarget.style.borderColor = colors.burntOrange;
                     e.currentTarget.style.boxShadow = "0 8px 32px rgba(0,0,0,0.06)";
                   }}
                   onMouseLeave={(e) => {
@@ -115,7 +115,7 @@ const ShopPage = () => {
                         fontSize: "10px",
                         letterSpacing: "2px",
                         textTransform: "uppercase",
-                        color: colors.gold,
+                        color: colors.burntOrange,
                         fontWeight: 600,
                       }}
                     >

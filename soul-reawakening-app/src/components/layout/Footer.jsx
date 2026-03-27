@@ -37,7 +37,7 @@ const Footer = () => {
                 color: colors.cream,
               }}
             >
-              Soul <span style={{ fontStyle: "italic", color: colors.gold }}>Reawakening</span>
+              Soul <span style={{ fontStyle: "italic", color: colors.burntOrange }}>Reawakening</span>
             </span>
             <p
               style={{
@@ -62,7 +62,7 @@ const Footer = () => {
                 fontSize: "11px",
                 letterSpacing: "2px",
                 textTransform: "uppercase",
-                color: colors.gold,
+                color: colors.burntOrange,
                 fontWeight: 600,
               }}
             >
@@ -95,7 +95,7 @@ const Footer = () => {
                 fontSize: "11px",
                 letterSpacing: "2px",
                 textTransform: "uppercase",
-                color: colors.gold,
+                color: colors.burntOrange,
                 fontWeight: 600,
               }}
             >
@@ -129,7 +129,7 @@ const Footer = () => {
                 fontSize: "11px",
                 letterSpacing: "2px",
                 textTransform: "uppercase",
-                color: colors.gold,
+                color: colors.burntOrange,
                 fontWeight: 600,
               }}
             >

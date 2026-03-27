@@ -17,7 +17,7 @@ const GlobalStyles = () => (
     }
 
     ::selection {
-      background: ${colors.gold};
+      background: ${colors.burntOrange};
       color: ${colors.white};
     }
 

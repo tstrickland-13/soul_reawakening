@@ -28,7 +28,7 @@ const LinksPage = () => (
             width: "88px",
             height: "88px",
             borderRadius: "50%",
-            background: `linear-gradient(145deg, ${colors.taupe}, ${colors.gold})`,
+            background: `linear-gradient(145deg, ${colors.taupe}, ${colors.burntOrange})`,
             margin: "0 auto 16px",
             display: "flex",
             alignItems: "center",
@@ -50,7 +50,7 @@ const LinksPage = () => (
             color: colors.espresso,
           }}
         >
-          Soul <span style={{ fontStyle: "italic", color: colors.gold }}>Reawakening</span>
+          Soul <span style={{ fontStyle: "italic", color: colors.burntOrange }}>Reawakening</span>
         </h1>
         <p
           style={{
@@ -104,7 +104,7 @@ const LinksPage = () => (
                 transition: "all 0.3s ease",
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = colors.gold;
+                e.currentTarget.style.borderColor = colors.burntOrange;
                 e.currentTarget.style.transform = "translateY(-2px)";
                 e.currentTarget.style.boxShadow = "0 4px 16px rgba(0,0,0,0.05)";
               }}
@@ -118,7 +118,7 @@ const LinksPage = () => (
                 style={{
                   fontFamily: fonts.display,
                   fontSize: "18px",
-                  color: colors.gold,
+                  color: colors.burntOrange,
                   width: "24px",
                 }}
               >

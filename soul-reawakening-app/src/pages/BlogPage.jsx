@@ -56,7 +56,7 @@ const BlogPage = () => (
                   }}
                   onMouseEnter={(e) => {
                     if (i !== 0) {
-                      e.currentTarget.style.borderColor = colors.gold;
+                      e.currentTarget.style.borderColor = colors.burntOrange;
                       e.currentTarget.style.transform = "translateY(-2px)";
                     }
                   }}
@@ -85,7 +85,7 @@ const BlogPage = () => (
                           fontSize: "10px",
                           letterSpacing: "2px",
                           textTransform: "uppercase",
-                          color: colors.gold,
+                          color: colors.burntOrange,
                           fontWeight: 600,
                         }}
                       >
@@ -134,10 +134,10 @@ const BlogPage = () => (
                         fontSize: "12px",
                         letterSpacing: "1px",
                         textTransform: "uppercase",
-                        color: colors.gold,
+                        color: colors.burntOrange,
                         marginTop: "16px",
                         display: "inline-block",
-                        borderBottom: `1px solid ${colors.gold}`,
+                        borderBottom: `1px solid ${colors.burntOrange}`,
                         paddingBottom: "2px",
                       }}
                     >

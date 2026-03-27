@@ -52,7 +52,7 @@ const Navigation = () => {
                 color: colors.espresso,
               }}
             >
-              Soul <span style={{ fontStyle: "italic", color: colors.gold }}>Reawakening</span>
+              Soul <span style={{ fontStyle: "italic", color: colors.burntOrange }}>Reawakening</span>
             </span>
           </Link>
 
@@ -106,10 +106,10 @@ const Navigation = () => {
                   letterSpacing: "1.5px",
                   textTransform: "uppercase",
                   fontWeight: isActive(path) ? 600 : 400,
-                  color: isActive(path) ? colors.gold : colors.warmGray,
+                  color: isActive(path) ? colors.burntOrange : colors.warmGray,
                   cursor: "pointer",
                   transition: "color 0.3s ease",
-                  borderBottom: isActive(path) ? `1px solid ${colors.gold}` : "1px solid transparent",
+                  borderBottom: isActive(path) ? `1px solid ${colors.burntOrange}` : "1px solid transparent",
                   paddingBottom: "2px",
                 }}
               >
@@ -146,7 +146,7 @@ const Navigation = () => {
                   fontFamily: fonts.display,
                   fontSize: "24px",
                   fontWeight: isActive(path) ? 500 : 400,
-                  color: isActive(path) ? colors.gold : colors.charcoal,
+                  color: isActive(path) ? colors.burntOrange : colors.charcoal,
                 }}
               >
                 {label}
