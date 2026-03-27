@@ -10,7 +10,7 @@ export const siteConfig = {
   description: "Through my own journey of reinvention and resilience, I guide others back into alignment with their truest selves through holistic coaching, consulting, intentional living, and integrated mind\u2013body\u2013spirit practices.",
   
   // Contact
-  email: "hello@soulreawakening.com",
+  email: "soulreawakening@gmail.com",
   location: "New York City",
   
   // Social Links
