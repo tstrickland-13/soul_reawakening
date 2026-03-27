@@ -42,7 +42,12 @@ const Navigation = () => {
       >
         <Container style={{ display: "flex", alignItems: "center", justifyContent: "space-between" }}>
           {/* Logo */}
-          <Link to="/" style={{ cursor: "pointer" }}>
+          <Link to="/" style={{ cursor: "pointer", display: "flex", alignItems: "center", gap: "10px" }}>
+            <img
+              src="/logo.png"
+              alt="Soul Reawakening"
+              style={{ height: scrolled ? "36px" : "42px", width: "auto", transition: "height 0.4s ease" }}
+            />
             <span
               style={{
                 fontFamily: fonts.display,

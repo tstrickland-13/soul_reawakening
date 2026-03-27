@@ -17,7 +17,7 @@ export const colors = {
   sage: "#9CAF93",
   sageLight: "#B5C4AE",
   roseDust: "#C9A9A6",
-  burntOrange: "#C27A4A",
+  burntOrange: "#EC8E3C",
   white: "#FFFFFF",
 };
 

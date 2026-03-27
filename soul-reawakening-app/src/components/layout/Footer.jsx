@@ -29,16 +29,19 @@ const Footer = () => {
         >
           {/* Brand */}
           <div>
-            <span
-              style={{
-                fontFamily: fonts.display,
-                fontSize: "24px",
-                fontWeight: 400,
-                color: colors.cream,
-              }}
-            >
-              Soul <span style={{ fontStyle: "italic", color: colors.burntOrange }}>Reawakening</span>
-            </span>
+            <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+              <img src="/logo.png" alt="Soul Reawakening" style={{ height: "48px", width: "auto" }} />
+              <span
+                style={{
+                  fontFamily: fonts.display,
+                  fontSize: "24px",
+                  fontWeight: 400,
+                  color: colors.cream,
+                }}
+              >
+                Soul <span style={{ fontStyle: "italic", color: colors.burntOrange }}>Reawakening</span>
+              </span>
+            </div>
             <p
               style={{
                 fontFamily: fonts.body,

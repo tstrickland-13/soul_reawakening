@@ -23,24 +23,18 @@ const LinksPage = () => (
     <div style={{ width: "100%", maxWidth: "420px", textAlign: "center" }}>
       {/* Profile */}
       <div className="animate-in" style={{ marginBottom: "32px" }}>
-        <div
+        <img
+          src="/logo.png"
+          alt="Soul Reawakening"
           style={{
             width: "88px",
             height: "88px",
             borderRadius: "50%",
-            background: `linear-gradient(145deg, ${colors.taupe}, ${colors.burntOrange})`,
+            objectFit: "cover",
             margin: "0 auto 16px",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontFamily: fonts.display,
-            fontSize: "32px",
-            color: colors.white,
-            fontWeight: 300,
+            display: "block",
           }}
-        >
-          M
-        </div>
+        />
 
         <h1
           style={{
