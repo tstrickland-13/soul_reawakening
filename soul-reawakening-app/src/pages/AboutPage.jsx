@@ -87,7 +87,7 @@ const AboutPage = () => (
                 marginTop: "40px",
                 padding: "32px",
                 background: colors.sandLight,
-                borderLeft: `3px solid ${colors.gold}`,
+                borderLeft: `3px solid ${colors.burntOrange}`,
               }}
             >
               <span
@@ -96,7 +96,7 @@ const AboutPage = () => (
                   fontSize: "11px",
                   letterSpacing: "2px",
                   textTransform: "uppercase",
-                  color: colors.gold,
+                  color: colors.burntOrange,
                   fontWeight: 600,
                 }}
               >
@@ -111,7 +111,7 @@ const AboutPage = () => (
                       fontSize: "12px",
                       padding: "6px 16px",
                       border: `1px solid ${colors.taupe}`,
-                      color: colors.warmGray,
+                      color: colors.burntOrange,
                     }}
                   >
                     {tag}

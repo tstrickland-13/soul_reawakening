@@ -164,12 +164,12 @@ const ShopPage = () => {
                       <div style={{ marginBottom: "20px" }}>
                         <span
                           style={{
-                            fontFamily: fonts.body,
-                            fontSize: "10px",
-                            letterSpacing: "1.5px",
-                            textTransform: "uppercase",
-                            color: colors.charcoal,
-                            fontWeight: 600,
+                          fontFamily: fonts.body,
+                          fontSize: "10px",
+                          letterSpacing: "1.5px",
+                          textTransform: "uppercase",
+                          color: colors.burntOrange,
+                          fontWeight: 600,
                           }}
                         >
                           Best For
@@ -197,7 +197,7 @@ const ShopPage = () => {
                                 style={{
                                   position: "absolute",
                                   left: 0,
-                                  color: colors.gold,
+                                  color: colors.burntOrange,
                                 }}
                               >
                                 &bull;
@@ -306,7 +306,7 @@ const ShopPage = () => {
                       color: colors.charcoal,
                     }}
                   >
-                    <span style={{ color: colors.gold, marginRight: "8px" }}>&bull;</span>
+                    <span style={{ color: colors.burntOrange, marginRight: "8px" }}>&bull;</span>
                     {item}
                   </li>
                 ))}

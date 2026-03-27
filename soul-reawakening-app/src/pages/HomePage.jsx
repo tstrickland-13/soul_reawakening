@@ -170,7 +170,7 @@ const HomePage = () => (
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
-            <SectionLabel>Focus Areas</SectionLabel>
+            <SectionLabel style={{ color: colors.burntOrange }}>Focus Areas</SectionLabel>
             <SectionHeading style={{ margin: "16px 0" }}>How I Support Growth</SectionHeading>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Divider />
@@ -196,7 +196,7 @@ const HomePage = () => (
                   padding: "14px 28px",
                   border: `1px solid ${colors.taupe}`,
                   background: colors.warmWhite,
-                  color: colors.charcoal,
+                  color: colors.burntOrange,
                   letterSpacing: "0.5px",
                 }}
               >
@@ -301,7 +301,7 @@ const HomePage = () => (
       <Container>
         <RevealSection>
           <div style={{ textAlign: "center", marginBottom: "48px" }}>
-            <SectionLabel>My Approach</SectionLabel>
+            <SectionLabel style={{ color: colors.burntOrange }}>My Approach</SectionLabel>
             <SectionHeading style={{ margin: "16px 0" }}>The Makini Campbell Approach</SectionHeading>
             <div style={{ display: "flex", justifyContent: "center" }}>
               <Divider />

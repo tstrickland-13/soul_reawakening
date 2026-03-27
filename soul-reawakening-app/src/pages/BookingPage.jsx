@@ -100,7 +100,7 @@ const BookingPage = () => (
                   style={{
                     fontFamily: fonts.display,
                     fontSize: "28px",
-                    color: colors.gold,
+                    color: colors.burntOrange,
                     display: "block",
                     marginBottom: "12px",
                   }}
